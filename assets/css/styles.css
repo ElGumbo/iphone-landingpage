@@ -47,6 +47,11 @@ section {
     display: flex;
     justify-content: start;
     align-items: center;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.01);
+    }
 }
 
 .cta__content {
@@ -108,6 +113,11 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.01);
+    }
 }
 
 .accessory-card__content {
