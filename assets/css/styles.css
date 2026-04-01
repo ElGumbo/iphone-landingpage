@@ -87,6 +87,13 @@ section {
     }
 }
 
+.accessories__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 3rem;
+}
+
 .accessories__grid {
     display: flex;
     gap: 1rem;
@@ -131,9 +138,15 @@ section {
     color: #1d1d1f;
     max-width: 400px;
     margin-bottom: 1rem;
+
+    sup a{
+        font-size: .6rem;
+        color: #1d1d1f;
+    }
 }
 
-.accessory-card__link {
+.accessory-card__link,
+.accessories__link {
     color: #0066cc;
     font-size: 1.0625rem;
     text-decoration: none;
